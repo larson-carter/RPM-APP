@@ -1,0 +1,6 @@
+framework module Pods_RPM_JONESBOROUITests {
+  umbrella header "Pods-RPM JONESBOROUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

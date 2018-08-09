@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Auth0.plist
+   RPM JONESBORO
+
+   Created by Larson Carter on 8/9/18.
+   Copyright (c) 2018 Larson Carter. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>ClientId</key>
+        <string>VGBVIEgbCGY7wM0eFCVN5cYcQpzH8QA5</string>
+        <key>Domain</key>
+        <string>lcproductions.auth0.com</string>
+    </dict>
+</plist>
+
