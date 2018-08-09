@@ -1,0 +1,6 @@
+framework module Pods_RPM_JONESBORO {
+  umbrella header "Pods-RPM JONESBORO-umbrella.h"
+
+  export *
+  module * { export * }
+}
