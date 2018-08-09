@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7B442B0211CC7D900ADB767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B442AF211CC7D900ADB767 /* AppDelegate.swift */; };
+		D7B442B2211CC7D900ADB767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B442B1211CC7D900ADB767 /* ViewController.swift */; };
+		D7B442B5211CC7D900ADB767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B442B3211CC7D900ADB767 /* Main.storyboard */; };
+		D7B442B8211CC7D900ADB767 /* RPM_JONESBORO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7B442B6211CC7D900ADB767 /* RPM_JONESBORO.xcdatamodeld */; };
+		D7B442BA211CC7DB00ADB767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B442B9211CC7DB00ADB767 /* Assets.xcassets */; };
+		D7B442BD211CC7DB00ADB767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B442BB211CC7DB00ADB767 /* LaunchScreen.storyboard */; };
+		D7B442C8211CC7DB00ADB767 /* RPM_JONESBOROTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B442C7211CC7DB00ADB767 /* RPM_JONESBOROTests.swift */; };
+		D7B442D3211CC7DB00ADB767 /* RPM_JONESBOROUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B442D2211CC7DB00ADB767 /* RPM_JONESBOROUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7B442C4211CC7DB00ADB767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7B442A4211CC7D900ADB767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B442AB211CC7D900ADB767;
+			remoteInfo = "RPM JONESBORO";
+		};
+		D7B442CF211CC7DB00ADB767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7B442A4211CC7D900ADB767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B442AB211CC7D900ADB767;
+			remoteInfo = "RPM JONESBORO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7B442AC211CC7D900ADB767 /* RPM JONESBORO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPM JONESBORO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B442AF211CC7D900ADB767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7B442B1211CC7D900ADB767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7B442B4211CC7D900ADB767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7B442B7211CC7D900ADB767 /* RPM_JONESBORO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RPM_JONESBORO.xcdatamodel; sourceTree = "<group>"; };
+		D7B442B9211CC7DB00ADB767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7B442BC211CC7DB00ADB767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7B442BE211CC7DB00ADB767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B442C3211CC7DB00ADB767 /* RPM JONESBOROTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPM JONESBOROTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B442C7211CC7DB00ADB767 /* RPM_JONESBOROTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPM_JONESBOROTests.swift; sourceTree = "<group>"; };
+		D7B442C9211CC7DB00ADB767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B442CE211CC7DB00ADB767 /* RPM JONESBOROUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPM JONESBOROUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B442D2211CC7DB00ADB767 /* RPM_JONESBOROUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPM_JONESBOROUITests.swift; sourceTree = "<group>"; };
+		D7B442D4211CC7DB00ADB767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7B442A9211CC7D900ADB767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B442C0211CC7DB00ADB767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B442CB211CC7DB00ADB767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7B442A3211CC7D900ADB767 = {
+			isa = PBXGroup;
+			children = (
+				D7B442AE211CC7D900ADB767 /* RPM JONESBORO */,
+				D7B442C6211CC7DB00ADB767 /* RPM JONESBOROTests */,
+				D7B442D1211CC7DB00ADB767 /* RPM JONESBOROUITests */,
+				D7B442AD211CC7D900ADB767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7B442AD211CC7D900ADB767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7B442AC211CC7D900ADB767 /* RPM JONESBORO.app */,
+				D7B442C3211CC7DB00ADB767 /* RPM JONESBOROTests.xctest */,
+				D7B442CE211CC7DB00ADB767 /* RPM JONESBOROUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B442AE211CC7D900ADB767 /* RPM JONESBORO */ = {
+			isa = PBXGroup;
+			children = (
+				D7B442AF211CC7D900ADB767 /* AppDelegate.swift */,
+				D7B442B1211CC7D900ADB767 /* ViewController.swift */,
+				D7B442B3211CC7D900ADB767 /* Main.storyboard */,
+				D7B442B9211CC7DB00ADB767 /* Assets.xcassets */,
+				D7B442BB211CC7DB00ADB767 /* LaunchScreen.storyboard */,
+				D7B442BE211CC7DB00ADB767 /* Info.plist */,
+				D7B442B6211CC7D900ADB767 /* RPM_JONESBORO.xcdatamodeld */,
+			);
+			path = "RPM JONESBORO";
+			sourceTree = "<group>";
+		};
+		D7B442C6211CC7DB00ADB767 /* RPM JONESBOROTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7B442C7211CC7DB00ADB767 /* RPM_JONESBOROTests.swift */,
+				D7B442C9211CC7DB00ADB767 /* Info.plist */,
+			);
+			path = "RPM JONESBOROTests";
+			sourceTree = "<group>";
+		};
+		D7B442D1211CC7DB00ADB767 /* RPM JONESBOROUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7B442D2211CC7DB00ADB767 /* RPM_JONESBOROUITests.swift */,
+				D7B442D4211CC7DB00ADB767 /* Info.plist */,
+			);
+			path = "RPM JONESBOROUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B442AB211CC7D900ADB767 /* RPM JONESBORO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B442D7211CC7DB00ADB767 /* Build configuration list for PBXNativeTarget "RPM JONESBORO" */;
+			buildPhases = (
+				D7B442A8211CC7D900ADB767 /* Sources */,
+				D7B442A9211CC7D900ADB767 /* Frameworks */,
+				D7B442AA211CC7D900ADB767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RPM JONESBORO";
+			productName = "RPM JONESBORO";
+			productReference = D7B442AC211CC7D900ADB767 /* RPM JONESBORO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7B442C2211CC7DB00ADB767 /* RPM JONESBOROTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B442DA211CC7DB00ADB767 /* Build configuration list for PBXNativeTarget "RPM JONESBOROTests" */;
+			buildPhases = (
+				D7B442BF211CC7DB00ADB767 /* Sources */,
+				D7B442C0211CC7DB00ADB767 /* Frameworks */,
+				D7B442C1211CC7DB00ADB767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B442C5211CC7DB00ADB767 /* PBXTargetDependency */,
+			);
+			name = "RPM JONESBOROTests";
+			productName = "RPM JONESBOROTests";
+			productReference = D7B442C3211CC7DB00ADB767 /* RPM JONESBOROTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7B442CD211CC7DB00ADB767 /* RPM JONESBOROUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B442DD211CC7DB00ADB767 /* Build configuration list for PBXNativeTarget "RPM JONESBOROUITests" */;
+			buildPhases = (
+				D7B442CA211CC7DB00ADB767 /* Sources */,
+				D7B442CB211CC7DB00ADB767 /* Frameworks */,
+				D7B442CC211CC7DB00ADB767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B442D0211CC7DB00ADB767 /* PBXTargetDependency */,
+			);
+			name = "RPM JONESBOROUITests";
+			productName = "RPM JONESBOROUITests";
+			productReference = D7B442CE211CC7DB00ADB767 /* RPM JONESBOROUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7B442A4211CC7D900ADB767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Larson Carter";
+				TargetAttributes = {
+					D7B442AB211CC7D900ADB767 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D7B442C2211CC7DB00ADB767 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D7B442AB211CC7D900ADB767;
+					};
+					D7B442CD211CC7DB00ADB767 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D7B442AB211CC7D900ADB767;
+					};
+				};
+			};
+			buildConfigurationList = D7B442A7211CC7D900ADB767 /* Build configuration list for PBXProject "RPM JONESBORO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7B442A3211CC7D900ADB767;
+			productRefGroup = D7B442AD211CC7D900ADB767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B442AB211CC7D900ADB767 /* RPM JONESBORO */,
+				D7B442C2211CC7DB00ADB767 /* RPM JONESBOROTests */,
+				D7B442CD211CC7DB00ADB767 /* RPM JONESBOROUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7B442AA211CC7D900ADB767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B442BD211CC7DB00ADB767 /* LaunchScreen.storyboard in Resources */,
+				D7B442BA211CC7DB00ADB767 /* Assets.xcassets in Resources */,
+				D7B442B5211CC7D900ADB767 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B442C1211CC7DB00ADB767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B442CC211CC7DB00ADB767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7B442A8211CC7D900ADB767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B442B8211CC7D900ADB767 /* RPM_JONESBORO.xcdatamodeld in Sources */,
+				D7B442B2211CC7D900ADB767 /* ViewController.swift in Sources */,
+				D7B442B0211CC7D900ADB767 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B442BF211CC7DB00ADB767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B442C8211CC7DB00ADB767 /* RPM_JONESBOROTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B442CA211CC7DB00ADB767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B442D3211CC7DB00ADB767 /* RPM_JONESBOROUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7B442C5211CC7DB00ADB767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B442AB211CC7D900ADB767 /* RPM JONESBORO */;
+			targetProxy = D7B442C4211CC7DB00ADB767 /* PBXContainerItemProxy */;
+		};
+		D7B442D0211CC7DB00ADB767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B442AB211CC7D900ADB767 /* RPM JONESBORO */;
+			targetProxy = D7B442CF211CC7DB00ADB767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7B442B3211CC7D900ADB767 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B442B4211CC7D900ADB767 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7B442BB211CC7DB00ADB767 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B442BC211CC7DB00ADB767 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7B442D5211CC7DB00ADB767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7B442D6211CC7DB00ADB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7B442D8211CC7DB00ADB767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "RPM JONESBORO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LCPRODUCTIONS.RPM-JONESBORO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7B442D9211CC7DB00ADB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "RPM JONESBORO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LCPRODUCTIONS.RPM-JONESBORO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7B442DB211CC7DB00ADB767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "RPM JONESBOROTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LCPRODUCTIONS.RPM-JONESBOROTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPM JONESBORO.app/RPM JONESBORO";
+			};
+			name = Debug;
+		};
+		D7B442DC211CC7DB00ADB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "RPM JONESBOROTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LCPRODUCTIONS.RPM-JONESBOROTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPM JONESBORO.app/RPM JONESBORO";
+			};
+			name = Release;
+		};
+		D7B442DE211CC7DB00ADB767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "RPM JONESBOROUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LCPRODUCTIONS.RPM-JONESBOROUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RPM JONESBORO";
+			};
+			name = Debug;
+		};
+		D7B442DF211CC7DB00ADB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "RPM JONESBOROUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LCPRODUCTIONS.RPM-JONESBOROUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RPM JONESBORO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7B442A7211CC7D900ADB767 /* Build configuration list for PBXProject "RPM JONESBORO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B442D5211CC7DB00ADB767 /* Debug */,
+				D7B442D6211CC7DB00ADB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B442D7211CC7DB00ADB767 /* Build configuration list for PBXNativeTarget "RPM JONESBORO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B442D8211CC7DB00ADB767 /* Debug */,
+				D7B442D9211CC7DB00ADB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B442DA211CC7DB00ADB767 /* Build configuration list for PBXNativeTarget "RPM JONESBOROTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B442DB211CC7DB00ADB767 /* Debug */,
+				D7B442DC211CC7DB00ADB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B442DD211CC7DB00ADB767 /* Build configuration list for PBXNativeTarget "RPM JONESBOROUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B442DE211CC7DB00ADB767 /* Debug */,
+				D7B442DF211CC7DB00ADB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7B442B6211CC7D900ADB767 /* RPM_JONESBORO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7B442B7211CC7D900ADB767 /* RPM_JONESBORO.xcdatamodel */,
+			);
+			currentVersion = D7B442B7211CC7D900ADB767 /* RPM_JONESBORO.xcdatamodel */;
+			path = RPM_JONESBORO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7B442A4211CC7D900ADB767 /* Project object */;
+}
